@@ -26,7 +26,9 @@ public class Employee {
     public Employee(long employeeId, String firstName, String lastName, LocalDate employmentDate, LocalDate enrollmentDate, double yearlySalary) {
         this(employeeId, firstName, lastName, employmentDate, enrollmentDate, yearlySalary, null);
     }
-    public Employee() {
+
+    public Employee(){
+        this(0, null, null, null, null, 0.0, null);
     }
     // Getters and setters for all fields
     public LocalDate getEnrollmentDate() {
