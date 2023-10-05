@@ -1,0 +1,15 @@
+Here are the requirements and UML class diagram for the Advantis Dental Surgeries system:
+
+Requirements
+
+1. The system should allow registering new dentists with their details like id, name, contact, email, specialization.
+2. It should allow enrolling new patients with their details like name, contact, email, address, date of birth.
+3. Patients should be able to request appointments online or by calling in.
+4. The office manager can book appointments and the system sends confirmation emails.
+5. Dentists can view their scheduled appointments and patient details.
+6. Patients can view their booked appointments and dentist details.
+7. Patients can request to cancel or reschedule appointments.
+8. A dentist cannot have more than 5 appointments scheduled in a week.
+9. Patients with unpaid bills cannot book new appointments.
+10. The system should store surgery center details like name, address, contact number.
+

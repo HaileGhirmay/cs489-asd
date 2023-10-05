@@ -1,0 +1,69 @@
+#Here are the classes and their attributes based on the UML class diagram for the Advantis Dental Surgeries system:
+
+User
+
+     -id: long
+     -name: String
+     -email: String
+     -contactNumber: String
+------------------------
+
+Patient (extends User)
+
+        -dateOfBirth: Date
+        -address: String
+        -bills: List<Bill>
+        -appointments: List<Appointment>
+
+------------------------
+
+Dentist (extends User)
+
+       -specialization: String
+       -appointments: List<Appointment>
+------------------------
+
+Appointment
+
+     -id: long
+     -appointmentTime: Date
+     -status: String
+     -patient: Patient
+     -dentist: Dentist
+     -surgeryCenter: SurgeryCenter
+
+------------------------
+
+SurgeryCenter
+
+     -name: String
+     -address: address
+     -contactNumber: String
+    -Appointment
+
+------------------------
+
+Bill
+
+     -id: long
+     -amount: double
+     -appointment: Appointment
+     -paymentStatus: String
+
+Address
+
+     -id: long
+     -street: String
+     -city: String
+     -state: String
+     -zipCode: String
+
+#Here are the  main classes and relationships between the classes:
+
+1. User - Common attributes
+2. Patient - Extends User
+3. Dentist - Extends User
+4. Appointment - Associations with Patient, Dentist, SurgeryCenter
+5. SurgeryCenter
+6. Bill - Associated with Appointment
+7. Address - Associated with Patient, SurgeryCenter
