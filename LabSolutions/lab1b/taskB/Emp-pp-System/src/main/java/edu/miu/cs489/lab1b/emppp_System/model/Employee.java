@@ -9,11 +9,12 @@ public class Employee {
     private LocalDate employmentDate;
     private LocalDate enrollmentDate;
     private double yearlySalary;
-    private PensionPlan pensionPlan; // Employee's associated PensionPlan (if any)
+private String planReferenceNumber;
+private PensionPlan pensionPlan; // Employee's associated PensionPlan (if any)
 
 
 
-    public Employee(long employeeId, String firstName, String lastName, LocalDate employmentDate, LocalDate enrollmentDate, double yearlySalary, PensionPlan pensionPlan) {
+    public Employee(long employeeId, String firstName, String lastName, LocalDate employmentDate, LocalDate enrollmentDate, double yearlySalary, String planReferenceNumber, double monthlyContribution) {
 
         this.employeeId = employeeId;
         this.firstName = firstName;
@@ -21,16 +22,13 @@ public class Employee {
         this.employmentDate = employmentDate;
         this.enrollmentDate = enrollmentDate;
         this.yearlySalary = yearlySalary;
-        this.pensionPlan = pensionPlan;
+        this.pensionPlan = (planReferenceNumber==null)?null : new PensionPlan(planReferenceNumber,enrollmentDate,monthlyContribution);
     }
-    public Employee(long employeeId, String firstName, String lastName, LocalDate employmentDate, LocalDate enrollmentDate, double yearlySalary) {
-        this(employeeId, firstName, lastName, employmentDate, enrollmentDate, yearlySalary, null);
+    public Employee(){
+
     }
 
-    public Employee(){
-        this(0, null, null, null, null, 0.0, null);
-    }
-    // Getters and setters for all fields
+
     public LocalDate getEnrollmentDate() {
         return enrollmentDate;
     }
@@ -75,16 +73,24 @@ public class Employee {
         this.pensionPlan = pensionPlan;
     }
 
+    public void setPlanReferenceNumber(String planReferenceNumber) {
+        this.planReferenceNumber = planReferenceNumber;
+    }
+
+    public String getPlanReferenceNumber() {
+        return planReferenceNumber;
+    }
+
     @Override
     public String toString() {
-        return "Employee{" +
-                "employeeId=" + employeeId +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", employmentDate=" + employmentDate +
-                ", enrollmentDate=" + enrollmentDate +
-                ", yearlySalary=" + yearlySalary +
-                ", pensionPlan=" + pensionPlan +
-                '}';
+        final StringBuilder sb = new StringBuilder("Employee{");
+        sb.append("employeeId=").append(employeeId);
+        sb.append(", firstName='").append(firstName).append('\'');
+        sb.append(", lastName='").append(lastName).append('\'');
+        sb.append(", employmentDate=").append(employmentDate);
+        sb.append(", yearlySalary=").append(yearlySalary);
+        sb.append(", pensionPlan=").append(pensionPlan);
+        sb.append('}');
+        return sb.toString();
     }
 }

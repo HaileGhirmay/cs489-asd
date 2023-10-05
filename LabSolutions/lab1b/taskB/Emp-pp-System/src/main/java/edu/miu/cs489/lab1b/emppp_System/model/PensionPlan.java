@@ -7,14 +7,16 @@ public class PensionPlan {
     private LocalDate enrollmentDate;
     private double monthlyContribution;
 
-    public PensionPlan() {
-    }
+
     public PensionPlan(String planReferenceNumber, LocalDate enrollmentDate, double monthlyContribution) {
         this.planReferenceNumber = planReferenceNumber;
         this.enrollmentDate = enrollmentDate;
         this.monthlyContribution = monthlyContribution;
     }
 
+    public PensionPlan() {
+
+    }
     public String getPlanReferenceNumber() {
         return planReferenceNumber;
     }
@@ -41,10 +43,11 @@ public class PensionPlan {
 
     @Override
     public String toString() {
-        return "PensionPlan{" +
-                "planReferenceNumber='" + planReferenceNumber + '\'' +
-                ", enrollmentDate=" + enrollmentDate +
-                ", monthlyContribution=" + monthlyContribution +
-                '}';
+        final StringBuilder sb = new StringBuilder("PensionPlan{");
+        sb.append("planReferenceNumber='").append(planReferenceNumber).append('\'');
+        sb.append(", enrollmentDate=").append(enrollmentDate);
+        sb.append(", monthlyContribution=").append(monthlyContribution);
+        sb.append('}');
+        return sb.toString();
     }
 }
