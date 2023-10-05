@@ -1,0 +1,13 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Â•Åîøÿÿÿÿ8ÒÁÄƒ°1
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÒÇ÷şÿÿÿÿ8àÁÄƒ°1
+z
+java:S1450"XRemove the "employees" field and declare it as a local variable in the relevant methods.(“ÇÓüÿÿÿÿ8àÁÄƒ°1
+L	java:S106'"+Replace this use of System.out by a logger.(ÃµÉ®ıÿÿÿÿ8êÁÄƒ°1
+X	java:S1250"<This block of commented-out lines of code should be removed.(¹šô8»©Êƒ°1
+o
+java:S6204>"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8èÁÄƒ°1
+G	java:S106?"+Replace this use of System.out by a logger.(õÒØ8÷áËƒ°1
+l
+java:S1128"ORemove this unused import 'edu.miu.cs489.lab1b.emppp_System.model.PensionPlan'.(—¸Ñó8êÁÄƒ°1
