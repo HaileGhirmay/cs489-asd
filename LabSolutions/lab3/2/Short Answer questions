@@ -1,0 +1,72 @@
+SHORT ANSWERS:
+----------------------------------------------------------------------------------------------------
+
+1.What is Spring?
+
+Spring is an open-source framework that provides infrastructure support for developing Java applications.
+ It handles configuration, dependency injection, and aspect-oriented programming to make Java development easier.
+
+
+// Example using Spring bean
+@Component
+public class MessageService {
+
+  public String getMessage() {
+    return "Hello World";
+  }
+
+}
+
+----------------------------------------------------------------------------------------------------
+2. What is Spring Boot?
+
+Spring Boot is a module of Spring that simplifies building stand-alone and production-grade Spring applications.
+It auto-configures components and eliminates a lot of boilerplate code.
+
+// Example of Spring Boot application
+
+// Bootstrapping Spring Boot application
+@SpringBootApplication
+public class Main {
+
+  public static void main(String[] args) {
+    SpringApplication.run(Main.class, args);
+  }
+
+}
+
+3. Relation between Spring platform and Spring Boot
+
+Spring Boot makes it easy to create Spring-powered applications with minimum configuration. It builds on top of the Spring
+platform by auto-configuring beans and setting up common dependencies. Relation between Spring platform and Spring framework
+The Spring framework is the core component of the Spring platform. It provides the fundamental features like dependency injection, AOP,
+data access, web framework etc. The platform includes other projects built on top of the core Spring framework.
+----------------------------------------------------------------------------------------------------
+
+4.Dependency Injection in Spring
+
+Dependency injection (DI) allows passing dependencies to objects instead of creating them inside. In Spring, dependencies defined as beans are
+ injected into other beans that require them.
+
+// Example of dependency injection in Spring
+
+@Component
+public class TextEditor {
+
+  private SpellChecker checker;
+
+  @Autowired
+  public TextEditor(SpellChecker checker) {
+    this.checker = checker;
+  }
+
+}
+----------------------------------------------------------------------------------------------------
+5.Inversion of Control and Spring
+
+Inversion of control (IoC) is a principle where objects do not create their dependencies but are provided from outside. Spring container handles
+object creation and dependency injection thereby promoting loose coupling. This IoC is enabled by the Spring framework.
+So in summary, Spring provides a comprehensive platform and framework for Java development, promoting IoC and DI through its container.
+ Spring Boot builds on Spring to simplify bootstrapping applications.
+
+----------------------------------------------------------------------------------------------------
