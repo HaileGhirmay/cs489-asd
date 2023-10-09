@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="elibrary" />
+        <module name="My-banking-CliApp" />
         <module name="CustomerMgmtCLIApp2" />
         <module name="CustomerMgmtCLIApp" />
         <module name="xm" />
