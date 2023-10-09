@@ -10,6 +10,7 @@
         <module name="elibrary" />
         <module name="CustomerMgmtCLIApp2" />
         <module name="CustomerMgmtCLIApp" />
+        <module name="xm" />
         <module name="Emp-pp-System" />
       </profile>
     </annotationProcessing>

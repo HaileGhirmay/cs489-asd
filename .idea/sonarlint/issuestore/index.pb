@@ -29,9 +29,9 @@ a
 uLabSolutions/lab3/1/1a/elibrary/src/main/java/edu/miu/cs/cs425/demowebapps/elibrary/elibrary/ElibraryApplication.java,0\7\07356de74c6d532ac9d2dd77da397918cb2c5fe4
 Z
 *LabSolutions/lab3/2/Short Answer questions,d\d\dda8f230fa60090b66b8e0fb346f88f9f6043983
-¦
-vLessons/lesson5b/books-mgmt-cli-app/src/main/java/edu/miu/cs/c89/lab5b/booksmgmtcliapp/BooksMgmtCliAppApplication.java,5\a\5a5f2262c5b27ee4120937913609a5752d4afcfb
-}
-MLessons/lesson5b/books-mgmt-cli-app/src/main/resources/application.properties,7\4\7420cba267ee30a03f49a23488e82d58d5a65d2c
-[
-+Lessons/lesson5b/books-mgmt-cli-app/pom.xml,9\f\9f6b37e49b8f4a740b65ea3d48e9294afc0921f6
+W
+'LabSolutions/lab3/1/1a/elibrary/pom.xml,4\6\46fb558ea639058bdadc9df7286a32b8e812ed72
+n
+>Lessons/lesson5b/xm/src/main/java/edu/miu/cs/cs489xm/Main.java,2\f\2ff44151e019cb99a446493dc4c032b2ca6b2e44
+K
+Lessons/lesson5b/xm/pom.xml,a\2\a2904d91ad1268ab4a915248b415f8b4a27201f1
