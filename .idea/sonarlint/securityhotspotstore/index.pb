@@ -21,3 +21,17 @@ g
 7LabSolutions/lab2/task2_Uml_design/List_of_domainModels,2\1\21a3cda9a4d6abbdbfba3cf8009a908244e5bf39
 ž
 nLabSolutions/lab1b/taskB/Emp-pp-System/src/main/java/edu/miu/cs489/lab1b/emppp_System/EmployeePensionsApp.java,2\4\24e60c67d6cb3680d9f747d3732f4c3f00dd30dd
+¥
+uLabSolutions/lab3/1/1a/elibrary/src/main/java/edu/miu/cs/cs425/demowebapps/elibrary/elibrary/ElibraryApplication.java,0\7\07356de74c6d532ac9d2dd77da397918cb2c5fe4
+¯
+LabSolutions/lab3/1/1a/elibrary/src/main/java/edu/miu/cs/cs425/demowebapps/elibrary/elibrary/controller/HomePageController.java,a\8\a8fe25d537737860e209821ba8627883dad1d408
+a
+1LabSolutions/lab4/Advantis dentist design details,2\2\22a64e8a567a7ae185e3ae4399393da75a52d264
+Z
+*LabSolutions/lab3/2/Short Answer questions,d\d\dda8f230fa60090b66b8e0fb346f88f9f6043983
+¦
+vLessons/lesson5b/books-mgmt-cli-app/src/main/java/edu/miu/cs/c89/lab5b/booksmgmtcliapp/BooksMgmtCliAppApplication.java,5\a\5a5f2262c5b27ee4120937913609a5752d4afcfb
+}
+MLessons/lesson5b/books-mgmt-cli-app/src/main/resources/application.properties,7\4\7420cba267ee30a03f49a23488e82d58d5a65d2c
+[
++Lessons/lesson5b/books-mgmt-cli-app/pom.xml,9\f\9f6b37e49b8f4a740b65ea3d48e9294afc0921f6
