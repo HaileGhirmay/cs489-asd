@@ -39,14 +39,16 @@ public class EmployeePensionsApp {
         System.out.println(employees);
 
 
-      /*  String json = employees.stream()
+        String json = employees.stream()
                 .map(e -> "{ \"id\": " + e.getEmployeeId() +
                         ", \"firstName\": \"" + e.getFirstName() + "\"" +
                         ", \"lastName\": \"" + e.getLastName() + "\"" +
                         ", \"salary\": " + e.getYearlySalary() + "}"
                                   )
                 .collect(Collectors.joining(", ", "[", "]"));
-        System.out.println(json);*/
+
+
+        System.out.println(json);
     }
 
     public static void printMonthlyUpcomingEnrolleesReport(List<Employee> employees) {

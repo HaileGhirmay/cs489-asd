@@ -35,7 +35,7 @@ public class BankingApp {
         // Method to initialize account data
         private static void initializeAccounts() {
             accounts.add(new Account("SV1089", LocalDate.of(2013, 10, 10), 950.00));
-            accounts.add(new Account("CK1007", LocalDate.of(2013, 10, 9), 100005.00));
+            accounts.add(new Account("CK1007", LocalDate.of(2013, 10, 9), 1000.00));
             accounts.add(new Account("SV2307", LocalDate.of(2019, 11, 4), 1555.50));
             accounts.add(new Account("CK1423", LocalDate.of(2012, 1, 15), 125009.55));
         }
@@ -63,14 +63,16 @@ public class BankingApp {
         public static void printPlatinumCustomersJSON() {
             // Implement Platinum Customer JSON printing logic here
           //Filter customers who qualify as platinum account holders (balance >= $100,000)
+
         var  platinumCustomers = customers.stream()
-                    .filter(customer -> customer.getAccount() != null && customer.getAccount().getBalance() >= 100000.00)
+                    .filter(customer -> customer.getAccount() != null && customer.getAccount().getBalance() >= 10000.00)
                     .collect(Collectors.toList());
             System.out.println(platinumCustomers);
 
 
 
             // Sort platinum customers by balance (descending) and then by account number
+
             platinumCustomers.sort((c1, c2) -> {
                 if (c1.getAccount().getBalance() != c2.getAccount().getBalance()) {
                     return Double.compare(c2.getAccount().getBalance(), c1.getAccount().getBalance());
