@@ -35,3 +35,13 @@ n
 >Lessons/lesson5b/xm/src/main/java/edu/miu/cs/cs489xm/Main.java,2\f\2ff44151e019cb99a446493dc4c032b2ca6b2e44
 K
 Lessons/lesson5b/xm/pom.xml,a\2\a2904d91ad1268ab4a915248b415f8b4a27201f1
+R
+"Quize/Q5/My-banking-CliApp/pom.xml,2\2\2218f4ffbd0460739c4ae4063bf159641191b6e5
+|
+LQuize/Q5/My-banking-CliApp/src/main/java/edu/miu/cs/cs489/model/Account.java,7\d\7dcd46a1cbd175622912c22e4d374e348e12b4ac
+}
+MQuize/Q5/My-banking-CliApp/src/main/java/edu/miu/cs/cs489/model/Customer.java,4\9\49431e065333c2d1f058ba2c732ef25563016ece
+y
+IQuize/Q5/My-banking-CliApp/src/main/java/edu/miu/cs/cs489/BankingApp.java,7\d\7d9d6e157e4e2cc8164523a14c1976428184e154
+D
+BookmgmntCli-App.iml,7\0\706a33e76b20634ce353bcf2609cb114835901cd
